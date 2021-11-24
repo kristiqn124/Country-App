@@ -17,7 +17,7 @@ class CountryInfo {
   returnBack() {
     this._parenElement.style.display = "flex";
     document.querySelector(".results").style.display = "flex";
-    document.querySelector(".message").style.display = "none";
+    document.querySelector(".message").innerHTML = "";
     document.querySelector(".bnt_container").style.display = "none";
     this._infoPage.innerHTML = "";
   }
