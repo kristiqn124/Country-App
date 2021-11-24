@@ -12,7 +12,8 @@ class Load {
   }
 
   renderError(message) {
-    this._results.innerHTML = "";
+    // this._results.innerHTML = "";
+    this._results.style.display = "none";
     this.remove();
     this._message.style.display = "flex";
     const markup = `
