@@ -15,9 +15,11 @@ class CountryInfo {
     this._parenElement.style.display = "none";
   }
   returnBack() {
+    const errMsg = document.querySelector(".message");
     this._parenElement.style.display = "flex";
     document.querySelector(".results").style.display = "flex";
-    document.querySelector(".message").innerHTML = "";
+    errMsg.innerHTML = "";
+    errMsg.style.display = "none";
     document.querySelector(".bnt_container").style.display = "none";
     this._infoPage.innerHTML = "";
   }
