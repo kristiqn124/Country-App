@@ -38,7 +38,7 @@ class CountryInfo {
         <img
           class="flag_img_info"
           src="${el.flags.png}"
-          alt=""
+          alt="${el.name}"
         />
       </div>
       <div class="infoContent">

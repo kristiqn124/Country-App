@@ -17,7 +17,7 @@ class CountryView {
   }
   _markup(el) {
     return ` <article class="country"><a class="link_country" href="#${el.isoCode}">
-      <img class="country__img" src="${el.image}" />
+      <img class="country__img" src="${el.image}" alt="${el.country}" />
       <div class="country__data">
         <h3 class="country__name">${el.country}</h3>
         <p class="country__row">Popolation: ${el.population}</p>
